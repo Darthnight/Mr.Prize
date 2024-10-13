@@ -1,0 +1,299 @@
+body{
+  font-family: "Lato", sans-serif;
+  margin: 0;
+  padding: 0;  
+}  
+
+nav{
+    Background-color: #197149;
+    
+    color: #a37e2c;
+
+    padding: 20px 50px;
+
+}
+
+.navTop{
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+}
+
+.seach{
+  display: flex;
+  align-items: center;
+  background-color:#a37e2c;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+
+.searchInput{
+  border: none;
+  background-color: transparent;
+}
+
+.searchinput::placeholder{
+  color: white
+}
+
+.LimtitedEvent{
+  font-size: 35px;
+  border-bottom: 3px solid #99b9d5;
+  cursor: pointer;
+
+}
+
+.navBottom{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content:space-between;
+
+}
+
+.menuItem{
+  margin-right: 50px;
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+  font-size-adjust: 1;
+
+}
+
+
+.slider{
+  position: relative;
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.slider img{
+  width: 100%;
+  display: none;
+}
+
+img.displaySlide{
+  display:block;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+.slider button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 2rem;
+  Padding: 10px 15px;
+  background-color: hsla(0, 0%, 0%, 0.5);
+  color: white;
+  border: none;
+  cursor: pointer;
+
+}
+
+.previous{
+  left: 0;
+}
+
+.next{
+  right : 0;
+}
+
+@keyframes fade {
+  from {opacity: .5}
+  to {opacity: 1}
+}
+
+
+.features {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px;
+}
+
+.features {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.featureIcon {
+  width: 80px;
+  height: 80px;
+}
+
+.featureTitle {
+  font-size: 30px;
+  font-weight: 600;
+  margin: 15px;
+}
+
+.featureDesc {
+  color:black;
+  width: 50%;
+  height: 100px;
+  font-size: 20px;
+}
+
+.featureDesc2 {
+  color:black;
+  width: 50%;
+  height: 100px;
+  font-size: 20px;
+}
+
+.product {
+  height: 100%;
+  position: relative;
+}
+
+.productPrice {
+  font-size: 50px;
+  color:#197149
+}
+
+
+.productImg{
+  width: 100%;
+  height: 100%;
+}
+.productDesc{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.productTitle{
+  font-size: 50px;
+  font-weight: 900;
+}
+
+.productDesc{
+  font-size: 35px;
+  color: #a37e2c;
+}
+
+.productDesc2 {
+  font-size: 25px;
+}
+
+.productDesc3 {
+  font-size: 25px;
+}
+
+.productDesc4 {
+  font-size: 25px;
+}
+
+.productDesc5{
+  font-size: 35px;
+  color: #a37e2c;
+}
+
+.productDesc6{
+  font-size: 25px;
+}
+
+.productDesc7{
+  font-size: 25px;
+}
+
+.social-icon {
+  color: #0866ff;
+  transition: 0.2;
+  text-decoration: none;
+  font-size: 50px;
+
+}
+
+.social-icon:hover {
+  color: lightslategray;
+}
+
+.social-icons {
+  color: red;
+  transition: 0.2;
+  text-decoration: none;
+  font-size: 50px;
+}
+
+.social-icons:hover {
+  color: darkslategray;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poopins', sans-serif;
+}
+
+.contact h2 {
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+.field .item {
+    width: 100%;
+    padding: 18px;
+    background: transparent;
+    border: 2px solid #0ef;
+    outline: none;
+    border-radius: 6px;
+    font-size: 16px;
+    color: #ededed;
+    margin: 12px 0;
+}
+
+.field .error-txt {
+    font-size: 14.5px;
+    color: #d93025;
+    text-align: left;
+    margin : -5px 0 10px;
+    display: none;
+}
+
+
+form .textarea-field .item {
+    resize: none;
+}
+
+form .textarea-field .error-txt {
+    margin-top: -10px;
+}
+
+
+form button {
+    padding: 12px 32Px;
+    background: #0ef;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    box-shadow: 0 0 10px #0ef;
+    font-size: 16px;
+    color: #333;
+    letter-spacing: 1px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: .5s;
+}
+
+form button:hover {
+    box-shadow: none;
+}
+
+
+
+
+
+
